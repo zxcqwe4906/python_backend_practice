@@ -11,6 +11,7 @@ class Calculate:
 
 if __name__ == '__main__':
     c = Calculate()
+    print('test:')
     print(f'5 + 8 = {c.add(5, 8)}')
     print(f'5 - 8 = {c.sub(5, 8)}')
     print(f'5 + 8 = {c.add(5, 8, debug=True)}')
