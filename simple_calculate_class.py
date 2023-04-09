@@ -1,5 +1,5 @@
 class Calculate:
-    def add(self, a: int, b: int, c: int, debug=False) -> int:
+    def add(self, a: int, b: int, c: int=0, debug=False) -> int:
         if debug:
             print(f'a: {a}, b: {b}, c: {c}')
         return a + b + c
